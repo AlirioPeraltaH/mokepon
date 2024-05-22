@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>¡Mokepon!</title>
+        <script src="./JavaScript/mokepon.js"></script>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>        
+        <!--SELECCIÓN DE LA MASCOTA-->
+        <section id="seleccionar-mascota">
+            <h1 id="idtitulo" class="titulo">Mokepón</h1>
+            <h2 class="subtitulo">Elige tu mascota po favo</h2>
+
+            <div class="tarjetas">
+                <label class="tarjeta-mokepon" for="aaguar">
+                    <p>Aaguar</p>
+                    <img src="./Assets/mokepons_mokepon_capipepo_attack.webp" alt="Aaguar">
+                </label>
+                <input type="radio" id="aaguar" name="mascota">
+                <label class="tarjeta-mokepon" for="ttierar">
+                    <p>Ttierar</p>
+                    <img src="./Assets/mokepons_mokepon_hipodoge_attack.webp" alt="Ttierar">
+                </label>
+                <input type="radio" id="ttierar" name="mascota">
+                <label class="tarjeta-mokepon" for="ffuegor">
+                    <p>Aaguar</p>
+                    <img src="./Assets/mokepons_mokepon_ratigueya_attack.webp" alt="Ffuegor">
+                </label>
+                <input type="radio" id="ffuegor" name="mascota">
+            </div>
+
+            <button id="bt-mascota">Seleccionar</button>
+
+        </section>
+
+        <!--SELECCIÓN DEL ATAQUE-->
+        <p>Tu mascota <span id="player-mascot"></span> tiene <span id="player-vidas">3</span> vidas y La mascota del enemigo <span id="enemy-mascot"></span> tiene <span id="enemy-vidas">3</span> vidas </p>
+
+
+        <section id="seleccionar-ataque">
+            <h2>Seleccione un ataque</h2>
+            <p>
+                <button id="bt-fuego">Fuego 🔥</button>
+                <button id="bt-agua">Agua 💧</button>
+                <button id="bt-tierra">Tierra 🌱</button>
+            </p>
+        </section>
+
+        <section id="mensajes"></section>
+
+        <section id="reiniciar">
+            <p>
+                <button id="bt-reiniciar">Volver a jugar</button>
+            </p>
+            
+        </section>
+    </body>
+</html>

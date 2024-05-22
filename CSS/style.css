@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Special+Elite&display=swap');
+
+body {
+    font-family: "Special Elite", system-ui;
+    background-color: #1A4D2E;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#idtitulo {
+    color: #F5EFE6;
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;;
+}
+
+.subtitulo {
+    color: #f6ae06;
+}
+
+.tarjetas {
+    display: flex;
+}
+
+.tarjeta-mokepon {
+    width: 160px;
+    height: 100px;
+    background: #E8DFCA;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border:  5px solid #4F6F52;
+    color:#1A4D2E;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta-mokepon img {
+    width: 73px;
+}
+
+input {
+    display: none;
+}
+
+#bt-mascota {
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background: transparent;
+    border: 3px solid white;
+    color: #F5EFE6;
+    font-family: "Lobster", sans-serif;
+    margin: 20px;
+}
